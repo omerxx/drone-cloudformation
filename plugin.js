@@ -99,7 +99,7 @@ let validateConfig = function (env) {
 let execute = function (env) {
     const config = {
         awsConfig: {
-            region: env.PLUGIN_REGION || 'eu-west-1'
+            region: env.PLUGIN_REGION || 'us-east-1'
         }
     };
 
